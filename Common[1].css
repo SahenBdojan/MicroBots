@@ -1,0 +1,66 @@
+.stepContainer {
+  font-family: Verdana;
+  font-size: 20px;
+  padding: .5rem;
+  display:inline-table;
+}
+
+.stepContainer:first-child {
+	margin-top: 10px; 
+}
+
+.circle {
+	position: relative;
+	padding: .25rem;
+    height: 2rem;
+    min-width: 200px;
+    border-radius: .25rem;
+    display: inline-block;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.25rem;
+	background: #ff5e5e; /* Old browsers */
+	background: -moz-linear-gradient(top, #ff5e5e 0%, #ff0000 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ff5e5e 0%,#ff0000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ff5e5e 0%,#ff0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5e5e', endColorstr='#ff0000',GradientType=0 ); /* IE6-9 */
+    color: #fff;
+    box-shadow: 0 0 .25rem .125rem #d4d4d4;
+	transition: .5s;
+}
+
+.nextStepCircle:hover
+{
+	box-shadow: 0 0 .25rem .1875rem #b7b7b7;
+	transition: .5s;
+	cursor: pointer;
+}
+
+body{
+    text-align: center;
+	padding-bottom:.5rem;
+	margin:0px;
+}
+/* .stepContainer{ */
+	/* display:inline-table; */
+	/* cursor:pointer; */
+/* } */
+
+
+.stepid
+{
+	position: absolute;
+	top: -.5rem;
+	left: -.5rem;
+	font-size: 1rem;
+	line-height: 1rem;
+	padding: .125rem .3rem;
+	border: 1px solid #fff;
+	box-shadow: 0 0 .125rem .125rem #d4d4d4;
+	border-radius: 50%;
+	background: #0099d8; /* Old browsers */
+	background: -moz-linear-gradient(top, #0099d8 0%, #005cd6 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #0099d8 0%,#005cd6 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #0099d8 0%,#005cd6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099d8', endColorstr='#005cd6',GradientType=0 ); /* IE6-9 */
+}

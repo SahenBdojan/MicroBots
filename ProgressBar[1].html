@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script src="../js/jquery-3.3.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="Common.css">
+<link rel="stylesheet" type="text/css" href="ProgressBar.css">
+<link rel="stylesheet" type="text/css" href="Loader.css">
+ 
+<title>PIA</title>
+</head>
+<body>
+<div class="playBar">
+	<div class="playBarButtonHolder">
+		<div class="playBarButton playButton">
+			<img  src="../images/play-on.png" alt="Play"  class="playBarImage " title="Continue usecase">
+			<img  src="../images/play-off.png" alt="Play"  class="playBarImage playBarImage-disabled" title="Continue usecase">
+		</div>
+		<div class="playBarButton pauseButton">
+			<img src="../images/pause-on.png" alt="Pause" class="playBarImage" title="Pause Usecase (continues until the next breakpoint)">
+			<img  src="../images/pause-off.png" alt="Pause"  class="playBarImage playBarImage-disabled" title="Pause Usecase">
+		</div>
+		<div class="playBarButton cancelButton">
+			<img src="../images/close.png" alt="Cancel" class="playBarImage" title="Cancel Usecase">
+		</div>
+	</div>
+</div>
+<div id="UiPathButtonContainer" class="button-container"></div>
+
+<div class="UiPathLoader">Loading&#8230;</div>
+<script type="text/javascript" src="../Data/portVariable.js"></script>
+<script type="text/javascript" src="Common.js"></script>
+<script type="text/javascript" src="ProgressBar.js"></script>
+
+</body>
+</html>
